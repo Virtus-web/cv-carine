@@ -3,7 +3,7 @@ import HomeIcon from '@mui/icons-material/Home';
 import PhoneIcon from "@mui/icons-material/Phone"
 import MailIcon from "@mui/icons-material/Mail"
 import Avatar from '../assets/avatar.jpg'
-// import GitHubIcon from '@mui/icons-material/GitHub';
+import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 // import EventIcon from "@mui/icons-material/Event"
 // import LocationOnIcon from "@mui/icons-material/LocationOn"
@@ -26,9 +26,9 @@ function User({ nom }) {
                 <p className="user__info">
                     <MailIcon /> <a href="mailto:johndoe@gmail.com">nicolas.pedenau@hotmail.fr</a>
                 </p>
-                {/* <p className="user__info">
+                <p className="user__info">
                     <GitHubIcon /> <a href="https://github.com/Virtus-web" rel="noreferrer" target="_blank">Virtus-web</a>
-                </p> */}
+                </p>
                 <p className="user__info">
                     <LinkedInIcon /> <a href="https://www.linkedin.com/in/nicolas-pedenau/" rel="noreferrer" target="_blank">Page Linked'In</a>
                 </p>

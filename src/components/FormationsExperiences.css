@@ -10,10 +10,10 @@
 }
 .grid__location {
     font-weight: 300;
-    color:var(--date-color);
+    color:var(--sidebar-bg-color-top);
 }
 .dark .grid__location {
-    color: var(--dark-date-color);
+    color: var(--dark-sidebar-bg-color-top);
 }
 .grid__mission {
     margin-bottom:var(--spacing-1);

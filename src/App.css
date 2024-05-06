@@ -9,20 +9,23 @@
 :root {
 
     /* colors */
+    --bg-color: #FFFFFF;
     --body-bg-color: #FFFFFF;
     --sidebar-bg-color: #f4f4f4;
     --text-color: #333333;
     --title-color: #111111;
     /* --date-color: #1f94c2; */
-    --date-color: #838ff3;
+    /*--dark-date-color: #686F8C;*/
     --dark-body-bg-color: #242424;
     --dark-sidebar-bg-color: #171717;
     --dark-text-color: #d8d8d8;
     --dark-title-color: #ffffff;
     /* --dark-date-color: #e6ef71; */
     /* --dark-date-color: #efd871; */
-    --dark-date-color: #838ff3;
-    
+    /*--dark-date-color: #686F8C;*/
+    --sidebar-bg-color-top: #686F8C;
+    --dark-sidebar-bg-color-top: #e8f4da;
+
     --icon-color:var(--text-color);
     --circle-color: #AAA;
     --circle-color-plain: #555;  
@@ -123,7 +126,7 @@ button {
 }
 
 .dark button {
-    color: var(--dark-text-color);
+    color: var(--dark-body-bg-color);
 }
 
 /* Helpers */
@@ -161,6 +164,10 @@ button {
     background-color: var(--sidebar-bg-color); 
 }
 
+.dark .sidebar {
+    background-color: var(--dark-sidebar-bg-color);
+}
+
 /* bonus */
 .sidebar::before {
     position: absolute;
@@ -171,7 +178,7 @@ button {
     display: block;
     width: 100%;
     height: 120px;
-    background-color: #838ff3;
+    background-color: var(--sidebar-bg-color-top);
     /* clip-path: polygon(0 0, 100% 1%, 100% 100%, 75% 86%, 25% 86%, 0 100%); */
     /* border-radius: 0 0 50% 50%; */
     /* Possibilité d'aller sur boder-radius generator ou sur clip-path generator */
@@ -180,8 +187,8 @@ button {
     clip-path: polygon(0 0, 100% 0, 100% 60%, 0% 100%);
 }
 
-.dark .sidebar {
-    background-color: var(--dark-sidebar-bg-color);
+.dark .sidebar::before {
+    background-color: var(--dark-sidebar-bg-color-top);
 }
 
 .actions {
