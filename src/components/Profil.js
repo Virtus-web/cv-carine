@@ -4,7 +4,11 @@ function Profil() {
         <div className="profil mb5">
             <h2>Profil | Disponible immédiatement</h2>
             <p style={{textAlign: 'justify'}}>
-                Après une évolution positive dans le domaine des médias et de la communication, j'ai orienté mes projets professionnels vers le développement informatique afin de poursuivre mes objectifs. Les deux années qui viennent de s'écouler ont été pour moi l'occasion de développer des projets dans un cadre indépendant, cela m'a également permis d'acquérir de nouvelles compétences en aduéquation avec les demandes du marché. Aujourd'hui, j'ai la volonté de rejoindre une entreprise au sein d'une équipe alliant cohésion et dynamisme.
+                Après une reconversion dans le domaine du développement informatique en 2020,
+                j'ai tout d'abord orienté mes projets dans un cadre indépendant afin de consolider ma formation.
+                Par ailleurs, je me suis positionné sur le marché du travail ce qui m'a permis d'obtenir un CDI chez un éditeur.
+                Cette expérience m'a fait acquérir de nouvelles compétences en aduéquation avec les demandes du marché.
+                Aujourd'hui, toujours en poste, j'ai la volonté de rejoindre une entreprise dynamique ayant des projets attractifs.
             </p>
         </div>
     )
