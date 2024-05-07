@@ -14,19 +14,14 @@
     --sidebar-bg-color: #f4f4f4;
     --text-color: #333333;
     --title-color: #111111;
-    /* --date-color: #1f94c2; */
-    /*--dark-date-color: #686F8C;*/
     --dark-body-bg-color: #242424;
     --dark-sidebar-bg-color: #171717;
     --dark-text-color: #d8d8d8;
     --dark-title-color: #ffffff;
-    /* --dark-date-color: #e6ef71; */
-    /* --dark-date-color: #efd871; */
-    /*--dark-date-color: #686F8C;*/
-    --sidebar-bg-color-top: #686F8C;
-    --dark-sidebar-bg-color-top: #e8f4da;
+    --sidebar-bg-color-top: #000080;
+    --dark-sidebar-bg-color-top: #3c7782;
 
-    --icon-color:var(--text-color);
+    --icon-color:black;
     --circle-color: #AAA;
     --circle-color-plain: #555;  
     --dark-icon-color:var(--dark-text-color);
@@ -116,11 +111,11 @@ li {
 
 a {
     text-decoration: none;
-    color: var(--text-color);
+    color:var(--sidebar-bg-color-top);
 }
 
 .dark a {
-    color: var(--dark-text-color);
+    color:var(--dark-sidebar-bg-color-top);
 }
 
 button {

@@ -32,3 +32,6 @@
 .skills ul li span {
     margin-left: 1em;
 }
+.skills p {
+    text-transform: uppercase;
+}

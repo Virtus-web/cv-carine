@@ -15,7 +15,7 @@ function User({ nom }) {
         <div className="user">
             <img src={Avatar} className="user__avatar" alt="Nicolas Pedenau" />
             <h1 className="user__name">{nom}</h1>
-            <p className="user__profession">Développeur Web - Fullstack</p>
+            <p className="user__profession">Chef de projet | Développeur</p>
             <div className="user__infos">
                 <p className="user__info">
                     <HomeIcon /> 31 Boulevard de l'ancien Marché 13870 Rognonas
@@ -24,7 +24,7 @@ function User({ nom }) {
                     <PhoneIcon /> <a href="tel:+33749646931">0749646931</a>
                 </p>
                 <p className="user__info">
-                    <MailIcon /> <a href="mailto:johndoe@gmail.com">nicolas.pedenau@hotmail.fr</a>
+                    <MailIcon /> <a href="mailto:nicolas.pedenau@hotmail.fr">nicolas.pedenau@hotmail.fr</a>
                 </p>
                 <p className="user__info">
                     <GitHubIcon /> <a href="https://github.com/Virtus-web" rel="noreferrer" target="_blank">Virtus-web</a>
@@ -32,12 +32,6 @@ function User({ nom }) {
                 <p className="user__info">
                     <LinkedInIcon /> <a href="https://www.linkedin.com/in/nicolas-pedenau/" rel="noreferrer" target="_blank">Page Linked'In</a>
                 </p>
-                {/* <p className="user__info">
-                    <EventIcon /> Date de naissance: 5 Avril 1984
-                </p> */}
-                {/* <p className="user__info">
-                    <LocationOnIcon /> Lieu de naissance: Champigny-sur-Marne
-                </p> */}
             </div>
         </div>
     )

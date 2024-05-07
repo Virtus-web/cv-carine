@@ -1,0 +1,15 @@
+.skills span {
+    text-transform: uppercase;
+    color:var(--sidebar-bg-color-top);
+}
+.dark .skills span {
+    color:var(--dark-sidebar-bg-color-top);
+}
+
+.skills svg {
+    color:var(--icon-color);
+    margin-right:1rem;
+}
+.dark .skills svg {
+    color:var(--dark-icon-color);
+}
