@@ -1,5 +1,3 @@
-import LaunchIcon from '@mui/icons-material/Launch';
-
 export const dataExperiences = [
     {
         id: 4,
