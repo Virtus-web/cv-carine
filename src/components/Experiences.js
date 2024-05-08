@@ -18,6 +18,13 @@ function Experiences(props) {
                             {item.missions.map(mission => (
                                 <li className="grid__mission" key={mission.id}>
                                     <a href={mission.url} rel="noreferrer" target="_blank">{mission.title}</a>
+                                    <ul className="grid__details">
+                                        {mission.details ? mission.details.map(detail => (
+                                            <li className="grid__detail" key={detail.id}>
+                                                <p>{detail.bullet}</p>
+                                            </li>
+                                        )) : false}
+                                    </ul>
                                 </li>
                             ))}
                         </ul>

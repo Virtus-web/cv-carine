@@ -18,7 +18,7 @@ function User({ nom }) {
             <p className="user__profession">Chef de projet | Développeur</p>
             <div className="user__infos">
                 <p className="user__info">
-                    <HomeIcon /> 31 Boulevard de l'ancien Marché 13870 Rognonas
+                    <HomeIcon /> 31 Boulevard de l'ancien Marché<br/> 13870 Rognonas
                 </p>
                 <p className="user__info">
                     <PhoneIcon /> <a href="tel:+33749646931">0749646931</a>

@@ -6,14 +6,6 @@
     justify-content: space-between;
     align-items: center;
 }
-.interests {
-    display: none;
-    align-items: center;  
-}
-.interests svg {
-    margin:var(--spacing-1);
-    margin-right: 1em;
-}
 .skills ul {
     padding: 0;
     display: flex;
@@ -26,12 +18,16 @@
     width: 100%;
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
+    justify-content: space-between;
     align-items: center;
-}
-.skills ul li span {
-    margin-left: 1em;
 }
 .skills p {
     text-transform: uppercase;
+}
+
+.interest {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
 }

@@ -7,11 +7,11 @@ import InsightsIcon from '@mui/icons-material/Insights';
 function Interests() {
     return (
         <div className="skills">
-            <h2 className="h2">Centres d'intérêts</h2>
+            <h2 className="h2">Intérêts</h2>
             <ul>
-                <li><InsightsIcon style={{ fontSize: 20 }} /><span>Développpement</span></li>
-                <li><TravelExploreIcon style={{ fontSize: 20 }} /><span>Voyage</span></li>
-                <li><FitnessCenterIcon style={{ fontSize: 20 }} /><span>Trail / Rugby</span></li>
+                <li><div className="interest"><InsightsIcon style={{ fontSize: 20 }} /><span>Développement</span></div><span>5 ans</span></li>
+                <li><div className="interest"><FitnessCenterIcon style={{ fontSize: 20 }} /><span>Trail / Rugby</span></div><span>6 ans</span></li>
+                <li><div className="interest"><TravelExploreIcon style={{ fontSize: 20 }} /><span>Voyage</span></div><span>7 ans</span></li>
             </ul>
         </div>
     )
