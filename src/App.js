@@ -4,7 +4,7 @@ import Skills from "./components/Skills"
 import Profil from "./components/Profil"
 import Cursus from "./components/FormationsExperiences"
 import DarkMode from "./components/DarkMode"
-import PictureAsPdfIcon from "@mui/icons-material/PictureAsPdf"
+// import PictureAsPdfIcon from "@mui/icons-material/PictureAsPdf"
 import { Preview, print } from "react-html2pdf"
 
 
@@ -26,15 +26,15 @@ function App() {
     }
 
     return (
-        <Preview id={"cv-print"} class="cv-print">
+        // <Preview id={"cv-print"} class="cv-print">
         <div className="App">
             <div className="grid__container">
             <div className="sidebar">
                 <div className="actions">
                 <DarkMode />
-                <button onClick={handleGenerateCv}>
-                    <PictureAsPdfIcon />
-                </button>
+                {/*<button onClick={handleGenerateCv}>*/}
+                {/*    <PictureAsPdfIcon />*/}
+                {/*</button>*/}
                 </div>
                 <User nom={`${name} ${lastName}`} />
                 <Skills />
@@ -45,7 +45,7 @@ function App() {
             </div>
             </div>
         </div>
-        </Preview>
+        // </Preview>
     )
 }
 
