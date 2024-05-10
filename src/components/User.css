@@ -3,6 +3,9 @@
     position: relative;
     text-align: center;  
 }
+.user img {
+    margin-bottom: 1.5em;
+}
 .user__name {
     margin-top: .5em;
     font-size: 1.5em;

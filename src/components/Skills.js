@@ -26,12 +26,14 @@ function Skills() {
                 <p className="skill__label">symfony</p>
                 <p className="skill__label">docker</p>
             </div>
+            <br/>
             <div className="skills">
                 <h2 className="h2">Langues</h2>
-                <Skill title="Anglais" level="Fluent" />
-                <Skill title="Espagnol" level="Remontada" />
+                <Skill title="Anglais" level="Fluent"/>
+                <Skill title="Espagnol" level="Remontada"/>
             </div>
-            <Interests />
+            <br/>
+            <Interests/>
         </SkillsBox>
     )
 }

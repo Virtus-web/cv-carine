@@ -29,20 +29,20 @@ function App() {
         // <Preview id={"cv-print"} class="cv-print">
         <div className="App">
             <div className="grid__container">
-            <div className="sidebar">
-                <div className="actions">
-                <DarkMode />
-                {/*<button onClick={handleGenerateCv}>*/}
-                {/*    <PictureAsPdfIcon />*/}
-                {/*</button>*/}
+                <div className="sidebar">
+                    <div className="actions">
+                        <DarkMode/>
+                        {/*<button onClick={handleGenerateCv}>*/}
+                        {/*    <PictureAsPdfIcon />*/}
+                        {/*</button>*/}
+                    </div>
+                    <User nom={`${name} ${lastName}`}/><br/>
+                    <Skills/>
                 </div>
-                <User nom={`${name} ${lastName}`} />
-                <Skills />
-            </div>
-            <div className="main">
-                <Profil />
-                <Cursus />
-            </div>
+                <div className="main">
+                    <Profil />
+                    <Cursus />
+                </div>
             </div>
         </div>
         // </Preview>
