@@ -157,7 +157,7 @@ button {
 
 .grid__detail {
     margin-top: 0.5em;
-    line-height: 0.5;
+    line-height: 1;
 }
 
 @media screen and (min-width:768px) {

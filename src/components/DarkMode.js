@@ -5,7 +5,7 @@ import Brightness2OutlinedIcon from "@mui/icons-material/Brightness2Outlined"
 
 const DarkMode = () => {
 
-    const [themeMode, setThemeMode] = useState("light")
+    const [themeMode, setThemeMode] = useState("dark")
     let clickedClass = "clicked"
     const body = document.body
     const lightTheme = "light"

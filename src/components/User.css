@@ -4,7 +4,7 @@
     text-align: center;  
 }
 .user img {
-    margin-bottom: 1.5em;
+    margin-bottom: 3em;
 }
 .user__name {
     margin-top: .5em;
@@ -21,7 +21,8 @@
     height: 7em;
 }
 .user__infos {
-    text-align: left;  
+    text-align: left;
+    margin-top: 2em;
     padding:var(--spacing-3) 0 var(--spacing-1) 0;
 }
 .user__info {
