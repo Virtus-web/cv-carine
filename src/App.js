@@ -18,15 +18,18 @@ function App() {
 
     const handleGenerateCv = () => {
         const input = pdfRef.current;
-        html2canvas(input).then((canvas) => {
+        html2canvas(input, {
+            // allowTaint: true,
+            // useCORS: true,
+            scale: 1
+        }).then((canvas) => {
             const imgData = canvas.toDataURL('image/jpg');
-            const pdf = new jsPDF('p', 'mm', [297, 210], true);
+            const pdf = new jsPDF('p', 'pt', [297, 210], true);
             const pdfWidth = pdf.internal.pageSize.getWidth();
             const pdfHeight = pdf.internal.pageSize.getHeight();
             const imgWidth = canvas.width;
             const imgHeight = canvas.height;
             const ratio = Math.min(pdfWidth / imgWidth, pdfHeight / imgHeight);
-            console.log(pdf.internal.pageSize.getHeight());
             const imgX = (pdfWidth - imgWidth * ratio) / 2;
             const imgY = 30;
             pdf.addImage(imgData, 'jpg', imgX, imgY, imgWidth * ratio, imgHeight * ratio);
