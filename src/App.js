@@ -5,6 +5,7 @@ import Profil from "./components/Profil"
 import Cursus from "./components/FormationsExperiences"
 import DarkMode from "./components/DarkMode"
 import PictureAsPdfIcon from "@mui/icons-material/PictureAsPdf"
+// import { Preview, print } from "react-html2pdf"
 import React, { useRef } from "react";
 import html2canvas from "html2canvas"
 import jsPDF from "jspdf"
@@ -19,20 +20,19 @@ function App() {
     const handleGenerateCv = () => {
         const input = pdfRef.current;
         html2canvas(input, {
-            // allowTaint: true,
-            // useCORS: true,
             scale: 1
         }).then((canvas) => {
             const imgData = canvas.toDataURL('image/jpg');
-            const pdf = new jsPDF('p', 'pt', [297, 210], true);
+            const pdf = new jsPDF('p', 'mm', [215, 297]);
             const pdfWidth = pdf.internal.pageSize.getWidth();
+            console.log(pdfWidth);
             const pdfHeight = pdf.internal.pageSize.getHeight();
-            const imgWidth = canvas.width;
-            const imgHeight = canvas.height;
+            const imgWidth = pdfWidth;
+            const imgHeight = pdfHeight;
             const ratio = Math.min(pdfWidth / imgWidth, pdfHeight / imgHeight);
-            const imgX = (pdfWidth - imgWidth * ratio) / 2;
-            const imgY = 30;
-            pdf.addImage(imgData, 'jpg', imgX, imgY, imgWidth * ratio, imgHeight * ratio);
+            const imgX = 0;
+            const imgY = 0;
+            pdf.addImage(imgData, 'jpg', imgX, imgY * ratio, imgWidth * ratio, imgHeight * ratio);
             pdf.save(`CV_${name}-${lastName}`);
         })
     }

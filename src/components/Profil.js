@@ -2,7 +2,7 @@ function Profil() {
     
     return (
         <div className="profil mb5">
-            <h2>Profil | En poste</h2>
+            <h2>Profil | En poste, à l'écoute du marché</h2>
             <p style={{textAlign: 'justify'}}>
                 Après une reconversion dans le domaine du développement informatique en 2020,
                 j'ai tout d'abord orienté mes projets dans un cadre indépendant afin de consolider ma formation.

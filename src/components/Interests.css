@@ -13,3 +13,7 @@
 .dark .skills svg {
     color:var(--dark-icon-color);
 }
+
+.interest h2 {
+    margin-top: 1.5em;
+}
