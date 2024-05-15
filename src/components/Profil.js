@@ -4,10 +4,11 @@ function Profil() {
         <div className="profil mb5">
             <h2>Profil | En poste, à l'écoute du marché</h2>
             <p style={{textAlign: 'justify'}}>
-                Forte d’une expérience de 16 ans dans le milieu bancaire,
-                j’ai accompagné de nombreux professionnels dans leur projet de création ou de développement de leur entreprise.
-                Aujourd'hui, je souhaite mettre ma personnalité et mes compétences au service de ma créativité,
-                dans le but d'accomplir mon propre projet professionnel : devenir architecte d'intérieur.
+                Après une reconversion dans le domaine du développement informatique en 2020,
+                j'ai tout d'abord orienté mes projets dans un cadre indépendant afin de consolider ma formation.
+                Par ailleurs, je me suis positionné sur le marché du travail ce qui m'a permis d'obtenir un CDI chez un éditeur.
+                Cette expérience m'a fait acquérir de nouvelles compétences en aduéquation avec les demandes du marché.
+                Aujourd'hui, toujours en poste, j'ai la volonté de rejoindre une entreprise dynamique ayant des projets attractifs.
             </p>
         </div>
     )
