@@ -1,117 +1,101 @@
 export const dataExperiences = [
     {
-        id: 4,
-        title: "Développeur | Chef de projet",
-        date: "2022 - en cours",
-        location: "Lyon | Tenor CDI",
-        text: `Développement et maintenance de sites applicatifs`,
+        id: 6,
+        title: "Conseillère clientèle de professionnels",
+        date: "2020 - 2024",
+        location: "Aix-en-Provence",
+        text: `SG-SMC`,
         missions: [
             {
                 id: 1,
-                title: "Renault ePds | Symfony",
-                details: [
-                    {
-                        id: 1,
-                        bullet : "Chef de projet et relation client"
-                    },
-                    {
-                        id: 2,
-                        bullet : "Développement des évolutions, de la maintenance et mise en production "
-                    },
-                    {
-                        id: 3,
-                        bullet : "Migration de Symfony 3 vers Symfony 5"
-                    },
-                    {
-                        id: 4,
-                        bullet : "Implémentation du code sous docker"
-                    },
-                ]
+                title: "Accompagnement client dans la création et le développement de son entreprise",
             },
             {
                 id: 2,
-                title: "Plateforme PDP - Propriétaire | Laravel - Vue.js",
-                details: [
-                    {
-                        id: 1,
-                        bullet : "Création d'une plateforme de gestion de facturations éléctroniques"
-                    },
-                    {
-                        id: 2,
-                        bullet : "Développeur au sein d'une équipe, sur les parties API REST et portails FRONT"
-                    },
-                    {
-                        id: 3,
-                        bullet : "Implémentation des tests unitaires et intégration de la documentation"
-                    },
-                ]
-            },
-            {
-                id: 3,
-                title: "Horis | Laravel - Nova",
-                details: [
-                    {
-                        id: 1,
-                        bullet : "Prise de contact client, analyse des besoins et construction de la proposition"
-                    },
-                    {
-                        id: 2,
-                        bullet : "mise en place de la gestion en mode AGILE et développeur sur un projet Laravel-Nova"
-                    },
-                ]
+                title: "Analyse besoins clients, gestion de projets",
             },
         ]
     },
     {
-        id: 1,
-        title: "Développement Web - Fullstack",
-        date: "2020 - 2022",
-        location: "France - Indépendant",
-        text: `Développement de projets indépendants. Lien portfolio consultable ci-dessous :`,
+        id: 5,
+        title: "Directrice d’agence",
+        date: "2017 - 2020",
+        location: "Avignon",
+        text: `SOCIETE GENERALE`,
         missions: [
             {
                 id: 1,
-                title: "Portfolio",
-                url: "https://virtus-web.github.io/developer-portfolio/",
+                title: "Gestion d’un fond de commerce de 3500 clients",
+            },
+            {
+                id: 2,
+                title: "Management d’une équipe de 5 personnes",
+            },
+        ]
+    },
+    {
+        id: 4,
+        title: "Conseillère clientèle de professionnels",
+        date: "2012 - 2017",
+        location: "Plan de Campagne",
+        text: `SOCIETE GENERALE`,
+        missions: [
+            {
+                id: 1,
+                title: "Accompagnement client dans la création et le développement de son entreprise",
+            },
+            {
+                id: 2,
+                title: "Analyse besoins clients",
+            },
+            {
+                id: 3,
+                title: "Gestion de projets",
+            }
+        ]
+    },
+    {
+        id: 1,
+        title: "Directrice adjointe",
+        date: "2007 - 2012",
+        location: "Salon-de-Provence",
+        text: `SOCIETE GENERALE`,
+        missions: [
+            {
+                id: 1,
+                title: "Management d’une équipe de 5 personnes",
+            },
+            {
+                id: 2,
+                title: "Gestion d’un portefeuille client de clientèle patrimoniale de 900 clients",
+            },
+            {
+                id: 3,
+                title: "Gestion portefeuille clients professionnels",
             }
         ]
     },
     {
         id: 2,
-        title: "Entreupreneuriat",
-        date: "2018 - 2020",
-        location: "Australie - Auto-entrepreneur",
-        text: `Création d'une entreprise de production audiovisuelle`,
+        title: "Responsable rayon",
+        date: "2006 - 2007",
+        location: "Toulouse",
+        text: `SEPHORA`,
         missions: [
             {
                 id: 1,
-                title: "Gestion d'entreprise",
+                title: "Gestion des stocks, développement du CA du rayon soins, développement qualité conseil",
             },
-            {
-                id: 2,
-                title: "Prospection commerciale",
-            }
         ]
     },
     {
         id: 3,
-        title: "Communication et Publicité",
-        date: "2010 - 2018",
-        location: "Paris | CDI",
-        text: `Evolution professionnelle dans le domaine de l'achat d'espace publicitaire`,
+        title: "Conseillère de vente Déco/Peinture",
+        date: "2002 - 2004",
+        location: "Avignon",
+        text: `LEROY MERLIN et WELDOM`,
         missions: [
-            {
-                id: 1,
-                title: "2015 - Chef de groupe TV et digital",
-            },
-            {
-                id: 2,
-                title: "2012 - Chargé de budget TV et digital",
-            },
-            {
-                id: 3,
-                title: "2010 - Acheteur TV junior",
-            },
+
         ]
     },
 ]

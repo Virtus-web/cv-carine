@@ -12,8 +12,8 @@ function Experiences(props) {
                     </div>
                     <div className="grid__item">
                         <h3 className="grid__title">{item.title}</h3>
-                        <p className="grid__location">{item.location}</p>
                         <p className="grid__text">{item.text}</p>
+                        <p className="grid__location">{item.location}</p>
                         <ul className="grid__missions">
                             {item.missions.map(mission => (
                                 <li className="grid__mission" key={mission.id}>
