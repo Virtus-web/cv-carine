@@ -14,8 +14,8 @@ function App() {
 
     const pdfRef = useRef();
 
-    const name = "Nicolas"
-    const lastName = "Pedenau"
+    const name = "Carine"
+    const lastName = "Bultel"
 
     const handleGenerateCv = () => {
         const input = pdfRef.current;
