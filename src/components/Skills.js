@@ -14,12 +14,12 @@ function Skills() {
     return (
         <SkillsBox>
             <div className="skills">
-                <h2>Compétences transverses</h2>
-                <p className="skill__label">Ecouter, analyser des besoins</p>
+                <h2>Hard skills</h2>
+                <p className="skill__label">Sens de l'écoute, analyse des besoins</p>
                 <p className="skill__label">Sens de l'organisation</p>
                 <p className="skill__label">Créativité</p>
                 <br />
-                <h2>Qualités relationnelles</h2>
+                <h2>Soft skills</h2>
                 <p className="skill__label">Curieuse</p>
                 <p className="skill__label">Rigoureuse</p>
                 <p className="skill__label">Dynamique</p>

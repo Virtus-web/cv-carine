@@ -1,9 +1,9 @@
 const dataFormations = [
     {
         id: 1,
-        title: "Bilan de compétences : projet de reconversion en Design Architecture d’intérieur",
+        title: "Bachelor 1 : Art et Design",
         date: "2024",
-        location: "Centre de formation CHANCE"
+        location: "ESDAC Aix-en-Provence"
     },
     {
         id: 2,

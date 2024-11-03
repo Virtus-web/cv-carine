@@ -12,7 +12,7 @@ export const dataExperiences = [
             },
             {
                 id: 2,
-                title: "Analyse besoins clients, gestion de projets",
+                title: "Analyse besoins clients",
             },
         ]
     },
